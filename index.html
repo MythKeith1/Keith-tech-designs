@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thando NH — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header>
+    <div class="logo">TH</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1 class="reveal glow-text">Building with <span class="typed"></span></h1>
+        <p class="reveal">Professional, engaging & interactive web solutions tailored for impact.</p>
+        <a href="#work" class="btn cta-btn magnetic">Explore My Work</a>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+      <h2 class="reveal">Projects</h2>
+      <div class="grid">
+        <div class="card reveal tilt">
+          <img src="https://source.unsplash.com/600x400/?web,design" alt="Project One">
+          <h3>Portfolio Website</h3>
+        </div>
+        <div class="card reveal tilt">
+          <img src="https://source.unsplash.com/600x400/?technology,creative" alt="Project Two">
+          <h3>E-commerce Store</h3>
+        </div>
+        <div class="card reveal tilt">
+          <img src="https://source.unsplash.com/600x400/?app,interface" alt="Project Three">
+          <h3>Interactive App</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="reveal">About Me</h2>
+      <p class="reveal">I craft digital experiences that merge professionalism with creativity — blending sleek visuals, intuitive interactions, and flawless functionality.</p>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta">
+      <div class="cta-box reveal">
+        <h2>Ready to Create Something Amazing?</h2>
+        <a href="#contact" class="btn big-btn magnetic">Let’s Work Together</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="reveal">Contact Me</h2>
+      <form class="contact-form reveal">
+        <div class="form-group">
+          <input type="text" required>
+          <label>Your Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" required>
+          <label>Your Email</label>
+        </div>
+        <div class="form-group full">
+          <textarea required></textarea>
+          <label>Your Message</label>
+        </div>
+        <button type="submit" class="btn send-btn magnetic">Send Message</button>
+        <div class="success-msg">✔ Message Sent Successfully!</div>
+      </form>
+    </section>
+  </main>
+
+  <footer>© Thando NH — All Rights Reserved</footer>
+  <script src="script.js"></script>
+</body>
+</html>
