@@ -67,12 +67,12 @@ nav a:hover {color:var(--orange);}
 /* Sections */
 section {padding:4rem 2rem;max-width:1200px;margin:auto;}
 h2 {font-size:2rem;margin-bottom:1.5rem;text-align:center}     
-  .custom-link {
+#custom-link {
     color: #00aaff; /* bright blue */
     text-decoration: none; /* remove underline */
   }
 
-  .custom-link:hover {
+#custom-link:hover {
     color: #ff6600; /* bright orange */
   }
 
