@@ -120,6 +120,25 @@ h3 custom-link:hover {
 .form-group textarea:valid+label {
   top:-.7rem;left:.8rem;font-size:.8rem;color:var(--lime);
 }
+  
+    .contact-icons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .contact-icons a {
+      font-size: 2rem;
+      color: #333;
+      transition: 0.3s;
+    }
+
+    .contact-icons a:hover {
+      color: #0077b5; /* example hover color */
+      transform: scale(1.2);
+    }
+
 .send-btn {grid-column:1/-1;justify-self:center;}
 .success-msg {display:none;color:var(--lime);font-weight:600;text-align:center;margin-top:1rem;}
 
